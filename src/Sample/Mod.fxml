@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="289.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Sample.Mod">
+    <children>
+        <Label alignment="CENTER" prefHeight="56.0" prefWidth="600.0" text="Sửa Từ" textFill="#0044ff">
+            <font>
+                <Font size="34.0" />
+            </font>
+        </Label>
+        <Label layoutX="14.0" layoutY="76.0" prefHeight="33.0" prefWidth="142.0" text="Nhập từ cần sửa: ">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <Label layoutX="14.0" layoutY="145.0" prefHeight="33.0" prefWidth="142.0" text="Nhập nghĩa:">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <TextField fx:id="EngWord" layoutX="156.0" layoutY="80.0" prefHeight="25.0" prefWidth="418.0" />
+        <TextField fx:id="VieWord" layoutX="156.0" layoutY="149.0" prefHeight="25.0" prefWidth="418.0" />
+        <Button fx:id="modButton" layoutX="255.0" layoutY="211.0" mnemonicParsing="false" onAction="#Submit" prefHeight="39.0" prefWidth="91.0" text="Hoàn tất" />
+    </children>
+</AnchorPane>
